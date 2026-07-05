@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">FitZone</div>
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <button>Join Now</button>
+</nav>
+    <section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>BUILD YOUR DREAM BODY</h1>
+
+        <p>
+            Train smarter. Get stronger.
+            Transform your life with FitZone.
+        </p>
+
+        <div class="buttons">
+
+            <button class="btn1">Join Now</button>
+
+            <button class="btn2">Learn More</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="about" class="about">
+
+    <div class="about-image">
+
+        <img src="https://img.magnific.com/free-photo/female-bodybuilder-training-biceps-with-dumbbells_651396-750.jpg?semt=ais_hybrid&w=740&q=80" alt="Gym">
+
+    </div>
+
+    <div class="about-content">
+
+        <h2>About FitZone</h2>
+
+        <p>
+            FitZone is a modern fitness center dedicated to helping
+            people achieve their health and fitness goals through
+            expert coaching, advanced equipment, and personalized
+            training programs.
+        </p>
+
+        <div class="stats">
+
+            <div class="stat">
+
+                <h3>500+</h3>
+
+                <p>Happy Members</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3>25+</h3>
+
+                <p>Professional Trainers</p>
+
+            </div>
+
+            <div class="stat">
+
+                <h3>10+</h3>
+
+                <p>Years Experience</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="programs" class="programs">
+
+    <h2>Our Programs</h2>
+
+    <div class="program-container">
+
+        <div class="card">
+
+    <i class="fa-solid fa-dumbbell icon"></i>
+
+    <h3>Strength Training</h3>
+
+    <p>
+        Build muscle, improve strength, and increase confidence.
+    </p>
+
+    <button onclick="toggleStrength()">
+        Learn More
+    </button>
+
+    <div id="strength-info" class="more-info">
+        
+
+        <h4>Strength Training</h4>
+
+        <p>
+            Strength training helps build muscles, increase bone
+            density, improve posture, and boost overall fitness.
+        </p>
+
+        <ul>
+            <li>✔ Weight Lifting</li>
+            <li>✔ Bench Press</li>
+            <li>✔ Squats</li>
+            <li>✔ Deadlifts</li>
+            <li>✔ Push-ups</li>
+        </ul>
+
+    </div>
+
+</div>
+
+       <div class="card">
+
+    <i class="fa-solid fa-heart-pulse icon"></i>
+
+    <h3>Cardio Training</h3>
+
+    <p>
+        Burn calories, improve stamina, and stay heart healthy.
+    </p>
+
+    <button onclick="toggleCardio()">
+        Learn More
+    </button>
+
+    <div id="cardio-info" class="more-info">
+
+        <h4>Cardio Training</h4>
+
+        <p>
+            Cardio exercises improve heart health, increase endurance,
+            and help burn calories effectively.
+        </p>
+
+        <ul>
+            <li>✔ Running</li>
+            <li>✔ Cycling</li>
+            <li>✔ Jump Rope</li>
+            <li>✔ Rowing</li>
+            <li>✔ Treadmill Workout</li>
+        </ul>
+
+    </div>
+
+</div>
+
+        <div class="card">
+
+    <i class="fa-solid fa-person icon"></i>
+
+    <h3>Yoga Classes</h3>
+
+    <p>
+        Improve flexibility, balance, and peace of mind.
+    </p>
+
+    <button onclick="toggleYoga()">
+        Learn More
+    </button>
+
+    <div id="yoga-info" class="more-info">
+
+        <h4>Yoga Classes</h4>
+
+        <p>
+            Yoga helps improve flexibility, posture, balance,
+            breathing, and mental relaxation.
+        </p>
+
+        <ul>
+            <li>✔ Surya Namaskar</li>
+            <li>✔ Tree Pose</li>
+            <li>✔ Cobra Pose</li>
+            <li>✔ Child's Pose</li>
+            <li>✔ Meditation</li>
+        </ul>
+
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+
+<section id="trainers" class="trainers">
+
+    <h2>Meet Our Trainers</h2>
+
+    <div class="trainer-container">
+
+        <div class="trainer-card">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnQ77eCSbcK2KcmIVZg6RQ2oeAngpJVdExy7Hh4vE_iw&s=10" alt="Trainer 1">
+
+            <h3>John Carter</h3>
+
+            <p>Strength Coach</p>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+        <div class="trainer-card">
+
+            <img src="https://media.istockphoto.com/id/1470234996/photo/woman-sitting-in-a-fitness-studio-with-her-yoga-class.jpg?s=612x612&w=0&k=20&c=PW0frpWedwpoux9hNCuVuzYYLsRSQxo0FtLtPYOk14c=" alt="Trainer 2">
+
+            <h3>Sarah Wilson</h3>
+
+            <p>Yoga Instructor</p>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+        <div class="trainer-card">
+
+            <img src="https://www.danchrist.com/wp-content/uploads/2025/09/ai-trainer-fitness-coach-analogy-1024x682.png" alt="Trainer 3">
+
+            <h3>David Lee</h3>
+
+            <p>Cardio Trainer</p>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="pricing" class="pricing">
+
+    <h2>Membership Plans</h2>
+
+    <div class="pricing-container">
+
+        <div class="price-card">
+
+            <h3>Basic</h3>
+
+            <h1>₹999</h1>
+
+            <p>/ Month</p>
+
+            <ul>
+
+                <li>✔ Gym Access</li>
+
+                <li>✔ Locker</li>
+
+                <li>✔ Free Water</li>
+
+            </ul>
+
+            <button>Join Now</button>
+
+        </div>
+
+        <div class="price-card popular">
+
+            <div class="badge">Most Popular</div>
+
+            <h3>Premium ⭐</h3>
+
+            <h1>₹1999</h1>
+
+            <p>/ Month</p>
+
+            <ul>
+
+                <li>✔ Gym Access</li>
+
+                <li>✔ Personal Trainer</li>
+
+                <li>✔ Diet Plan</li>
+
+                <li>✔ Steam Bath</li>
+
+            </ul>
+
+            <button>Join Now</button>
+
+        </div>
+
+        <div class="price-card">
+
+            <h3>Pro</h3>
+
+            <h1>₹2999</h1>
+
+            <p>/ Month</p>
+
+            <ul>
+
+                <li>✔ Everything in Premium</li>
+
+                <li>✔ Nutrition Coach</li>
+
+                <li>✔ 24/7 Access</li>
+
+                <li>✔ VIP Lounge</li>
+
+            </ul>
+
+            <button>Join Now</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="testimonials" class="testimonials">
+
+    <h2>What Our Members Say</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+
+            <p>"FitZone completely transformed my fitness journey!"</p>
+
+            <h4>- Rahul Sharma</h4>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <p>"Professional trainers and excellent equipment."</p>
+
+            <h4>- Priya Patel</h4>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <p>"The best gym experience I've ever had."</p>
+
+            <h4>- Arjun Kumar</h4>
+
+            <span>⭐⭐⭐⭐⭐</span>
+
+        </div>
+
+    </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Get In Touch</h3>
+
+            <p>📍 Bengaluru, India</p>
+
+            <p>📞 +91 9987654321</p>
+
+            <p>✉ info@fitzone.com</p>
+
+        </div>
+
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Your Name">
+
+                <input type="email" placeholder="Your Email">
+
+                <textarea placeholder="Your Message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+<footer>
+
+    <p>© 2026 FitZone | All Rights Reserved</p>
+
+</footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
